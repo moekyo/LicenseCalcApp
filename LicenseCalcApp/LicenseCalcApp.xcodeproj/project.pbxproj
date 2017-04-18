@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2D030951EA5C7EB00871516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D030941EA5C7EB00871516 /* main.m */; };
+		E2D030981EA5C7EB00871516 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D030971EA5C7EB00871516 /* AppDelegate.m */; };
+		E2D0309B1EA5C7EB00871516 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D0309A1EA5C7EB00871516 /* ViewController.m */; };
+		E2D0309E1EA5C7EB00871516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D0309C1EA5C7EB00871516 /* Main.storyboard */; };
+		E2D030A01EA5C7EB00871516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D0309F1EA5C7EB00871516 /* Assets.xcassets */; };
+		E2D030A31EA5C7EB00871516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D030A11EA5C7EB00871516 /* LaunchScreen.storyboard */; };
+		E2D030AE1EA5C7EB00871516 /* LicenseCalcAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D030AD1EA5C7EB00871516 /* LicenseCalcAppTests.m */; };
+		E2D030B91EA5C7EB00871516 /* LicenseCalcAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D030B81EA5C7EB00871516 /* LicenseCalcAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2D030AA1EA5C7EB00871516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2D030881EA5C7EB00871516 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2D0308F1EA5C7EB00871516;
+			remoteInfo = LicenseCalcApp;
+		};
+		E2D030B51EA5C7EB00871516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2D030881EA5C7EB00871516 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2D0308F1EA5C7EB00871516;
+			remoteInfo = LicenseCalcApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2D030901EA5C7EB00871516 /* LicenseCalcApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LicenseCalcApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D030941EA5C7EB00871516 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2D030961EA5C7EB00871516 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2D030971EA5C7EB00871516 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2D030991EA5C7EB00871516 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2D0309A1EA5C7EB00871516 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2D0309D1EA5C7EB00871516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2D0309F1EA5C7EB00871516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2D030A21EA5C7EB00871516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2D030A41EA5C7EB00871516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2D030A91EA5C7EB00871516 /* LicenseCalcAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LicenseCalcAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D030AD1EA5C7EB00871516 /* LicenseCalcAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LicenseCalcAppTests.m; sourceTree = "<group>"; };
+		E2D030AF1EA5C7EB00871516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2D030B41EA5C7EB00871516 /* LicenseCalcAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LicenseCalcAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D030B81EA5C7EB00871516 /* LicenseCalcAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LicenseCalcAppUITests.m; sourceTree = "<group>"; };
+		E2D030BA1EA5C7EB00871516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2D0308D1EA5C7EB00871516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D030A61EA5C7EB00871516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D030B11EA5C7EB00871516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2D030871EA5C7EB00871516 = {
+			isa = PBXGroup;
+			children = (
+				E2D030921EA5C7EB00871516 /* LicenseCalcApp */,
+				E2D030AC1EA5C7EB00871516 /* LicenseCalcAppTests */,
+				E2D030B71EA5C7EB00871516 /* LicenseCalcAppUITests */,
+				E2D030911EA5C7EB00871516 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2D030911EA5C7EB00871516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2D030901EA5C7EB00871516 /* LicenseCalcApp.app */,
+				E2D030A91EA5C7EB00871516 /* LicenseCalcAppTests.xctest */,
+				E2D030B41EA5C7EB00871516 /* LicenseCalcAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2D030921EA5C7EB00871516 /* LicenseCalcApp */ = {
+			isa = PBXGroup;
+			children = (
+				E2D030961EA5C7EB00871516 /* AppDelegate.h */,
+				E2D030971EA5C7EB00871516 /* AppDelegate.m */,
+				E2D030991EA5C7EB00871516 /* ViewController.h */,
+				E2D0309A1EA5C7EB00871516 /* ViewController.m */,
+				E2D0309C1EA5C7EB00871516 /* Main.storyboard */,
+				E2D0309F1EA5C7EB00871516 /* Assets.xcassets */,
+				E2D030A11EA5C7EB00871516 /* LaunchScreen.storyboard */,
+				E2D030A41EA5C7EB00871516 /* Info.plist */,
+				E2D030931EA5C7EB00871516 /* Supporting Files */,
+			);
+			path = LicenseCalcApp;
+			sourceTree = "<group>";
+		};
+		E2D030931EA5C7EB00871516 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2D030941EA5C7EB00871516 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2D030AC1EA5C7EB00871516 /* LicenseCalcAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2D030AD1EA5C7EB00871516 /* LicenseCalcAppTests.m */,
+				E2D030AF1EA5C7EB00871516 /* Info.plist */,
+			);
+			path = LicenseCalcAppTests;
+			sourceTree = "<group>";
+		};
+		E2D030B71EA5C7EB00871516 /* LicenseCalcAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2D030B81EA5C7EB00871516 /* LicenseCalcAppUITests.m */,
+				E2D030BA1EA5C7EB00871516 /* Info.plist */,
+			);
+			path = LicenseCalcAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2D0308F1EA5C7EB00871516 /* LicenseCalcApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D030BD1EA5C7EB00871516 /* Build configuration list for PBXNativeTarget "LicenseCalcApp" */;
+			buildPhases = (
+				E2D0308C1EA5C7EB00871516 /* Sources */,
+				E2D0308D1EA5C7EB00871516 /* Frameworks */,
+				E2D0308E1EA5C7EB00871516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LicenseCalcApp;
+			productName = LicenseCalcApp;
+			productReference = E2D030901EA5C7EB00871516 /* LicenseCalcApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2D030A81EA5C7EB00871516 /* LicenseCalcAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D030C01EA5C7EB00871516 /* Build configuration list for PBXNativeTarget "LicenseCalcAppTests" */;
+			buildPhases = (
+				E2D030A51EA5C7EB00871516 /* Sources */,
+				E2D030A61EA5C7EB00871516 /* Frameworks */,
+				E2D030A71EA5C7EB00871516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2D030AB1EA5C7EB00871516 /* PBXTargetDependency */,
+			);
+			name = LicenseCalcAppTests;
+			productName = LicenseCalcAppTests;
+			productReference = E2D030A91EA5C7EB00871516 /* LicenseCalcAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2D030B31EA5C7EB00871516 /* LicenseCalcAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D030C31EA5C7EB00871516 /* Build configuration list for PBXNativeTarget "LicenseCalcAppUITests" */;
+			buildPhases = (
+				E2D030B01EA5C7EB00871516 /* Sources */,
+				E2D030B11EA5C7EB00871516 /* Frameworks */,
+				E2D030B21EA5C7EB00871516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2D030B61EA5C7EB00871516 /* PBXTargetDependency */,
+			);
+			name = LicenseCalcAppUITests;
+			productName = LicenseCalcAppUITests;
+			productReference = E2D030B41EA5C7EB00871516 /* LicenseCalcAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2D030881EA5C7EB00871516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = edaotech;
+				TargetAttributes = {
+					E2D0308F1EA5C7EB00871516 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = VEYQ3M4KZ9;
+						ProvisioningStyle = Automatic;
+					};
+					E2D030A81EA5C7EB00871516 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = VEYQ3M4KZ9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2D0308F1EA5C7EB00871516;
+					};
+					E2D030B31EA5C7EB00871516 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = VEYQ3M4KZ9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2D0308F1EA5C7EB00871516;
+					};
+				};
+			};
+			buildConfigurationList = E2D0308B1EA5C7EB00871516 /* Build configuration list for PBXProject "LicenseCalcApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2D030871EA5C7EB00871516;
+			productRefGroup = E2D030911EA5C7EB00871516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2D0308F1EA5C7EB00871516 /* LicenseCalcApp */,
+				E2D030A81EA5C7EB00871516 /* LicenseCalcAppTests */,
+				E2D030B31EA5C7EB00871516 /* LicenseCalcAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2D0308E1EA5C7EB00871516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D030A31EA5C7EB00871516 /* LaunchScreen.storyboard in Resources */,
+				E2D030A01EA5C7EB00871516 /* Assets.xcassets in Resources */,
+				E2D0309E1EA5C7EB00871516 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D030A71EA5C7EB00871516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D030B21EA5C7EB00871516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2D0308C1EA5C7EB00871516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D0309B1EA5C7EB00871516 /* ViewController.m in Sources */,
+				E2D030981EA5C7EB00871516 /* AppDelegate.m in Sources */,
+				E2D030951EA5C7EB00871516 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D030A51EA5C7EB00871516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D030AE1EA5C7EB00871516 /* LicenseCalcAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D030B01EA5C7EB00871516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D030B91EA5C7EB00871516 /* LicenseCalcAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2D030AB1EA5C7EB00871516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2D0308F1EA5C7EB00871516 /* LicenseCalcApp */;
+			targetProxy = E2D030AA1EA5C7EB00871516 /* PBXContainerItemProxy */;
+		};
+		E2D030B61EA5C7EB00871516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2D0308F1EA5C7EB00871516 /* LicenseCalcApp */;
+			targetProxy = E2D030B51EA5C7EB00871516 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2D0309C1EA5C7EB00871516 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2D0309D1EA5C7EB00871516 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2D030A11EA5C7EB00871516 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2D030A21EA5C7EB00871516 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2D030BB1EA5C7EB00871516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2D030BC1EA5C7EB00871516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2D030BE1EA5C7EB00871516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VEYQ3M4KZ9;
+				INFOPLIST_FILE = LicenseCalcApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moekyo.LicenseCalcApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2D030BF1EA5C7EB00871516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VEYQ3M4KZ9;
+				INFOPLIST_FILE = LicenseCalcApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moekyo.LicenseCalcApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2D030C11EA5C7EB00871516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VEYQ3M4KZ9;
+				INFOPLIST_FILE = LicenseCalcAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moekyo.LicenseCalcAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LicenseCalcApp.app/LicenseCalcApp";
+			};
+			name = Debug;
+		};
+		E2D030C21EA5C7EB00871516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VEYQ3M4KZ9;
+				INFOPLIST_FILE = LicenseCalcAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moekyo.LicenseCalcAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LicenseCalcApp.app/LicenseCalcApp";
+			};
+			name = Release;
+		};
+		E2D030C41EA5C7EB00871516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VEYQ3M4KZ9;
+				INFOPLIST_FILE = LicenseCalcAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moekyo.LicenseCalcAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LicenseCalcApp;
+			};
+			name = Debug;
+		};
+		E2D030C51EA5C7EB00871516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VEYQ3M4KZ9;
+				INFOPLIST_FILE = LicenseCalcAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moekyo.LicenseCalcAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LicenseCalcApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2D0308B1EA5C7EB00871516 /* Build configuration list for PBXProject "LicenseCalcApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D030BB1EA5C7EB00871516 /* Debug */,
+				E2D030BC1EA5C7EB00871516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D030BD1EA5C7EB00871516 /* Build configuration list for PBXNativeTarget "LicenseCalcApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D030BE1EA5C7EB00871516 /* Debug */,
+				E2D030BF1EA5C7EB00871516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2D030C01EA5C7EB00871516 /* Build configuration list for PBXNativeTarget "LicenseCalcAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D030C11EA5C7EB00871516 /* Debug */,
+				E2D030C21EA5C7EB00871516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2D030C31EA5C7EB00871516 /* Build configuration list for PBXNativeTarget "LicenseCalcAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D030C41EA5C7EB00871516 /* Debug */,
+				E2D030C51EA5C7EB00871516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2D030881EA5C7EB00871516 /* Project object */;
+}
